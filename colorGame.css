@@ -2,8 +2,7 @@ body {
 	background-color: black;
 }
 
-h1,
-#displayMessage {
+h1 {
 	color: white;
 }
 
@@ -18,4 +17,15 @@ h1,
 #container {
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	background-color: rgba(0, 183, 255, 0.651);
 }

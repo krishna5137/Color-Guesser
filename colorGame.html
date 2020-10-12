@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Game</title>
-    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="colorGame.css">
 </head>
 <body>
     <h1>THE GREAT <span id = "targetColor" >RGB(A, B, C)</span> GUESSING GAME</h1>
-    <div id="displayMessage"></div>
+    <div id="stripe">
+        <button id="resetBtn">New Colors</button>
+        <span id="displayMessage"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
+    </div>
+    
 
     <div id="container">
         <div class = "square"></div>
