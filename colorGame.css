@@ -1,9 +1,16 @@
 body {
 	background-color: black;
+	margin: 0;
+	font-family: "Avenir", "Montserrat";
 }
 
 h1 {
+	text-align: center;
 	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+	background-color: steelblue;
+	margin: 0;
 }
 
 .square {
@@ -12,11 +19,15 @@ h1 {
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
 }
 
 #container {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 #stripe {
@@ -26,6 +37,31 @@ h1 {
 	color: black;
 }
 
+#displayMessage {
+	display: inline-block;
+	width: 20%;
+}
+
 .selected {
-	background-color: rgba(0, 183, 255, 0.651);
+	color: white;
+	background-color: steelblue;
+}
+
+button {
+	border: none;
+	background-color: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.4s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
 }

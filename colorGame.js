@@ -43,7 +43,8 @@ hardBtn.addEventListener("click", function() {
 });
 
 resetButton.addEventListener("click", function() {
-    heading.style.backgroundColor = "black";
+    displayMessage.textContent = "";
+    heading.style.backgroundColor = "steelblue";
     resetButton.textContent = "New Colors";
     //generate random colored array
     colors = generateRandomColors(noOfSquares);
